@@ -16,7 +16,7 @@ export default function Footer() {
               <span className="font-sans text-[0.65rem] font-semibold tracking-[0.25em] uppercase text-arata-offwhite/40">
                 Pronto para evoluir?
               </span>
-              <h2 className="font-serif text-5xl md:text-7xl lg:text-[6rem] leading-[0.9] tracking-tight">
+              <h2 className="font-serif text-[3.25rem] md:text-[5rem] lg:text-[6rem] leading-[0.9] tracking-tight">
                 Inicie um <br />
                 <span className="italic text-arata-crimson">Diálogo.</span>
               </h2>

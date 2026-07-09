@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -29,9 +30,28 @@ export default function Navbar() {
         <a href="#equipe" className="hover:text-arata-crimson transition-colors duration-300">Quem Somos</a>
         <a href="#contato" className="hover:text-arata-crimson transition-colors duration-300">Contato</a>
       </div>
-      <div className="lg:hidden font-sans text-xs uppercase tracking-[0.2em] pointer-events-auto cursor-pointer">
-        Menu
+      <div 
+        className="lg:hidden font-sans text-xs uppercase tracking-[0.2em] pointer-events-auto cursor-pointer p-4 -mr-4"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        {menuOpen ? 'Fechar' : 'Menu'}
       </div>
+
+      {/* Mobile Menu Overlay */}
+      <motion.div 
+        initial={{ opacity: 0, y: "-100%" }}
+        animate={{ opacity: menuOpen ? 1 : 0, y: menuOpen ? "0%" : "-100%" }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        className="fixed inset-0 w-full h-screen bg-arata-dark z-[-1] pointer-events-auto flex flex-col items-center justify-center gap-12"
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-arata-forest/30 to-arata-dark z-0"></div>
+        <div className="relative z-10 flex flex-col items-center gap-10 font-serif text-4xl">
+          <a href="#visao" onClick={() => setMenuOpen(false)} className="hover:text-arata-crimson transition-colors duration-300">Visão</a>
+          <a href="#servicos" onClick={() => setMenuOpen(false)} className="hover:text-arata-crimson transition-colors duration-300">Expertise</a>
+          <a href="#equipe" onClick={() => setMenuOpen(false)} className="hover:text-arata-crimson transition-colors duration-300">Equipe</a>
+          <a href="#contato" onClick={() => setMenuOpen(false)} className="hover:text-arata-crimson transition-colors duration-300">Contato</a>
+        </div>
+      </motion.div>
     </motion.nav>
   );
 }
