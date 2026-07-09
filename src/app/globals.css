@@ -49,24 +49,39 @@ body::after {
 /* Efeito 3D Metálico Elegante (Luz e Sombra Interna) */
 .text-3d-metallic {
   color: var(--color-arata-offwhite);
-  background: linear-gradient(180deg, #FFFFFF 0%, #BDBBB5 100%);
+  background: linear-gradient(180deg, #FFFFFF 0%, #A09D96 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 
-    0px 2px 4px rgba(0, 0, 0, 0.8), /* Sombra profunda imediata */
-    0px 8px 25px rgba(0, 0, 0, 0.6); /* Sombra difusa de ambiente */
+    0px -1px 1px rgba(255, 255, 255, 0.8), /* Borda iluminada superior */
+    0px 2px 3px rgba(0, 0, 0, 1), /* Fenda interna */
+    0px 10px 30px rgba(0, 0, 0, 0.8); /* Brilho negativo */
 }
 
-/* Efeito 3D Extrusão Sólida (Bloco Arquitetônico) */
-.text-3d-extruded {
+/* Extrusão Clara visível (Para texto branco) */
+.text-3d-light {
   text-shadow: 
-    -1px -1px 0px rgba(255, 255, 255, 0.1), /* Luz rebatida em cima */
-    1px 1px 0px #10120D,
-    2px 2px 0px #10120D,
-    3px 3px 0px #10120D,
-    4px 4px 0px #10120D,
-    5px 5px 0px #0A0C08,
-    6px 15px 25px rgba(0, 0, 0, 0.9); /* Sombra pesada na base do bloco */
+    1px 1px 0px #b3b1aa,
+    2px 2px 0px #9e9c95,
+    3px 3px 0px #8a8882,
+    4px 4px 0px #75746f,
+    5px 5px 0px #61605c,
+    6px 6px 0px #4d4c49,
+    7px 7px 0px #383836,
+    8px 15px 30px rgba(0, 0, 0, 1);
+}
+
+/* Extrusão Vermelha visível (Para texto Crimson) */
+.text-3d-crimson {
+  text-shadow: 
+    1px 1px 0px #c73947,
+    2px 2px 0px #b0323e,
+    3px 3px 0px #992a35,
+    4px 4px 0px #82232d,
+    5px 5px 0px #6b1b24,
+    6px 6px 0px #54141c,
+    7px 7px 0px #3d0d13,
+    8px 15px 30px rgba(0, 0, 0, 1);
 }
 
 /* Destruir cursor padrão no Desktop (pois temos custom cursor) */

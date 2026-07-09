@@ -18,7 +18,7 @@ export default function Footer() {
               </span>
               <h2 className="font-serif text-[3.25rem] md:text-[5rem] lg:text-[6rem] leading-[0.9] tracking-tight">
                 <span className="text-3d-metallic block">Inicie um</span>
-                <span className="italic text-arata-crimson text-3d-extruded block">Diálogo.</span>
+                <span className="italic text-arata-crimson text-3d-crimson block">Diálogo.</span>
               </h2>
             </div>
             

@@ -103,13 +103,13 @@ export default function Hero() {
             >
               <motion.span 
                 variants={text3DVariants} 
-                className="block text-arata-offwhite text-3d-extruded"
+                className="block text-arata-offwhite text-3d-light"
               >
                 {arataData.hero.titleLine1}
               </motion.span>
               <motion.span 
                 variants={text3DVariants} 
-                className="block italic text-arata-crimson text-3d-extruded"
+                className="block italic text-arata-crimson text-3d-crimson"
               >
                 & {arataData.hero.titleLine2}.
               </motion.span>
