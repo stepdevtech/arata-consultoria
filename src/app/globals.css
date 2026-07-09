@@ -5,6 +5,8 @@
   --color-arata-crimson: #E34A58; /* Coral/Rosa vibrante da flor e cabeça do pássaro */
   --color-arata-offwhite: #F5F3ED; /* Creme do peito do pássaro */
   --color-arata-dark: #1A1C15; /* Tom quase preto para contraste profundo */
+  --font-serif: var(--font-serif), ui-serif, Georgia, serif;
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {

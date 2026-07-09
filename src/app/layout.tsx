@@ -9,13 +9,13 @@ import { SITE_DATA } from "@/constants/data";
 const cormorant = Cormorant_Garamond({ 
   subsets: ["latin"], 
   weight: ["300", "400", "500", "600"],
-  variable: "--font-cormorant",
+  variable: "--font-serif",
 });
 
 const outfit = Outfit({ 
   subsets: ["latin"],
   weight: ["300", "400", "500"],
-  variable: "--font-inter", // mantendo a mesma variável css para não quebrar estilos anteriores
+  variable: "--font-sans",
 });
 
 export const metadata: Metadata = {
