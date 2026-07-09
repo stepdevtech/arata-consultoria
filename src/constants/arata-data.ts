@@ -1,6 +1,6 @@
 export const arataData = {
   hero: {
-    titleLine1: "Engenharia",
+    titleLine1: "Consultoria",
     titleLine2: "Ambiental",
     subtitle: "Estruturamos a base legal e técnica para que empreendimentos complexos saiam do papel. Menos fricção burocrática, mais segurança operacional.",
     cta: "Nossa Abordagem"

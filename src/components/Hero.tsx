@@ -111,7 +111,7 @@ export default function Hero() {
                 variants={text3DVariants} 
                 className="block italic text-arata-crimson text-3d-crimson"
               >
-                & {arataData.hero.titleLine2}.
+                {arataData.hero.titleLine2}.
               </motion.span>
             </motion.h1>
           </motion.div>
