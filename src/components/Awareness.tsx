@@ -57,12 +57,12 @@ export default function Awareness() {
               </span>
               <span className="text-mask block overflow-hidden pb-4 ml-[5vw] lg:ml-[10vw]">
                 <motion.span className="inline-block italic text-arata-crimson origin-bottom-left" variants={textRevealVariants}>
-                  não negocia
+                  não é um obstáculo.
                 </motion.span>
               </span>
               <span className="text-mask block overflow-hidden pb-4">
                 <motion.span className="inline-block text-white/40 origin-bottom-left" variants={textRevealVariants}>
-                  com prazos mal calculados.
+                  É a fundação do negócio.
                 </motion.span>
               </span>
             </h2>
