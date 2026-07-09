@@ -2,7 +2,7 @@ export const arataData = {
   hero: {
     titleLine1: "Consultoria",
     titleLine2: "Ambiental",
-    subtitle: "Estratégia e inteligência ecológica para viabilizar negócios. Transformamos a complexidade regulatória em segurança jurídica e sustentabilidade comprovada.",
+    subtitle: "Realizamos levantamentos em campo, acompanhamentos técnicos e elaboramos todos os documentos técnicos exigidos pelos órgãos de fiscalização para viabilizar o seu negócio.",
     cta: "Nossa Abordagem"
   },
   awareness: {
