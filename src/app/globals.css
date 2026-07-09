@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-arata-forest: #313628; /* Fundo Verde Oliva Escuro da Logo */
+  --color-arata-crimson: #E34A58; /* Coral/Rosa vibrante da flor e cabeça do pássaro */
+  --color-arata-offwhite: #F5F3ED; /* Creme do peito do pássaro */
+  --color-arata-dark: #1A1C15; /* Tom quase preto para contraste profundo */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-arata-forest);
+  background-image: 
+    linear-gradient(to right, rgba(245, 243, 237, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(245, 243, 237, 0.03) 1px, transparent 1px);
+  background-size: 120px 120px;
+  color: var(--color-arata-offwhite);
+  overflow-x: hidden;
+}
+
+/* Granulação (Film Grain) Cinematográfica cobrindo tudo */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9998;
+  background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noise"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noise)"/%3E%3C/svg%3E');
+  opacity: 0.06;
+}
+
+/* Utilitário para máscara de texto no Framer Motion */
+.text-mask {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Destruir cursor padrão no Desktop (pois temos custom cursor) */
+@media (min-width: 1024px) {
+  * {
+    cursor: none !important;
+  }
 }
