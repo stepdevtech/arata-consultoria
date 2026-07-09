@@ -57,7 +57,7 @@ export default function Preloader() {
                 transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
                 className="font-sans text-[0.65rem] tracking-[0.4em] uppercase text-arata-offwhite/50"
               >
-                Engenharia & Ambiental
+                Consultoria Ambiental
               </motion.div>
             </div>
           </div>
