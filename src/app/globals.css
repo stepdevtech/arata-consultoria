@@ -46,6 +46,29 @@ body::after {
   vertical-align: top;
 }
 
+/* Efeito 3D Metálico Elegante (Luz e Sombra Interna) */
+.text-3d-metallic {
+  color: var(--color-arata-offwhite);
+  background: linear-gradient(180deg, #FFFFFF 0%, #BDBBB5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 
+    0px 2px 4px rgba(0, 0, 0, 0.8), /* Sombra profunda imediata */
+    0px 8px 25px rgba(0, 0, 0, 0.6); /* Sombra difusa de ambiente */
+}
+
+/* Efeito 3D Extrusão Sólida (Bloco Arquitetônico) */
+.text-3d-extruded {
+  text-shadow: 
+    -1px -1px 0px rgba(255, 255, 255, 0.1), /* Luz rebatida em cima */
+    1px 1px 0px #10120D,
+    2px 2px 0px #10120D,
+    3px 3px 0px #10120D,
+    4px 4px 0px #10120D,
+    5px 5px 0px #0A0C08,
+    6px 15px 25px rgba(0, 0, 0, 0.9); /* Sombra pesada na base do bloco */
+}
+
 /* Destruir cursor padrão no Desktop (pois temos custom cursor) */
 @media (min-width: 1024px) {
   * {

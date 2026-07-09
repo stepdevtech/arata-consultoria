@@ -99,17 +99,17 @@ export default function Hero() {
           >
             <motion.h1 
               style={{ rotateX, rotateY }}
-              className="font-serif text-[3.25rem] md:text-[5rem] lg:text-[7.5rem] leading-[0.9] tracking-tight text-arata-offwhite flex flex-col items-center"
+              className="font-serif text-[3.25rem] md:text-[5rem] lg:text-[7.5rem] leading-[0.9] tracking-tight flex flex-col items-center"
             >
               <motion.span 
                 variants={text3DVariants} 
-                className="block drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)]"
+                className="block text-arata-offwhite text-3d-extruded"
               >
                 {arataData.hero.titleLine1}
               </motion.span>
               <motion.span 
                 variants={text3DVariants} 
-                className="block italic text-arata-crimson drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)]"
+                className="block italic text-arata-crimson text-3d-extruded"
               >
                 & {arataData.hero.titleLine2}.
               </motion.span>
