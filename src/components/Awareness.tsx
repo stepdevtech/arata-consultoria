@@ -52,17 +52,17 @@ export default function Awareness() {
             <h2 className="font-serif text-[2.75rem] md:text-[5rem] lg:text-[7rem] leading-[0.85] tracking-tighter">
               <span className="text-mask block overflow-hidden pb-4">
                 <motion.span className="inline-block origin-bottom-left" variants={textRevealVariants}>
-                  Onde a engenharia
+                  O meio ambiente
                 </motion.span>
               </span>
               <span className="text-mask block overflow-hidden pb-4 ml-[5vw] lg:ml-[10vw]">
                 <motion.span className="inline-block italic text-arata-crimson origin-bottom-left" variants={textRevealVariants}>
-                  encontra a sua
+                  não negocia
                 </motion.span>
               </span>
               <span className="text-mask block overflow-hidden pb-4">
                 <motion.span className="inline-block text-white/40 origin-bottom-left" variants={textRevealVariants}>
-                  própria natureza.
+                  com prazos mal calculados.
                 </motion.span>
               </span>
             </h2>

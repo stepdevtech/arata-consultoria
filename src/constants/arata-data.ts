@@ -2,37 +2,37 @@ export const arataData = {
   hero: {
     titleLine1: "Engenharia",
     titleLine2: "Ambiental",
-    subtitle: "A intersecção exata entre o progresso estrutural e o equilíbrio ecológico. Desenhamos a viabilidade do seu negócio com técnica impecável e segurança regulatória.",
-    cta: "Nossa Visão"
+    subtitle: "Estruturamos a base legal e técnica para que empreendimentos complexos saiam do papel. Menos fricção burocrática, mais segurança operacional.",
+    cta: "Nossa Abordagem"
   },
   awareness: {
-    title: "Filosofia Aratã",
-    hook: "Onde a engenharia encontra a sua própria natureza.",
-    desc: "Não enxergamos a legislação ambiental como um obstáculo burocrático, mas como a fundação de um crescimento duradouro. Transformamos a alta complexidade regulatória em segurança jurídica absoluta, permitindo que a sua visão ganhe raízes sólidas para escalar sem precedentes. O meio ambiente não é um freio para o desenvolvimento; é a bússola que dita o projeto perfeito.",
-    vision: "Progresso irresponsável é passivo. Preservação sem desenvolvimento é estagnação.",
-    alert: "A sustentabilidade real nasce muito antes da primeira fundação: ela nasce na aprovação inquestionável."
+    title: "A Realidade do Setor",
+    hook: "O meio ambiente não negocia com prazos mal dimensionados.",
+    desc: "A aprovação de um projeto não depende de sorte ou de 'atalhos' institucionais. Depende da precisão dos dados coletados em campo e da robustez técnica apresentada aos órgãos de controle. Nossa função é mapear, quantificar e mitigar os impactos antes que eles se tornem multas ou embargos que paralisam a sua obra.",
+    vision: "Um projeto viável é aquele que não pode ser tecnicamente contestado.",
+    alert: "80% dos atrasos em grandes obras nascem de estudos ambientais genéricos e mal embasados."
   },
   services: [
-    { id: "01", title: "Licenciamento Estratégico", desc: "A blindagem legal do seu empreendimento. Conduzimos todo o ciclo das licenças (LP, LI, LO) com orquestração tática, antecipando exigências, mitigando gargalos de aprovação e assegurando a velocidade do seu cronograma." },
-    { id: "02", title: "Inventário Florestal & Flora", desc: "Mapeamento botânico milimétrico. Entregamos uma leitura profunda do bioma para intervenções cirúrgicas, supressões extremamente controladas e estratégias de compensação ecológica inatacáveis." },
-    { id: "03", title: "Monitoramento de Fauna", desc: "Acompanhamento rigoroso das dinâmicas zoológicas. Nossos levantamentos validam a viabilidade da sua operação, certificando tecnicamente que o progresso e a vida silvestre coexistam em equilíbrio." },
-    { id: "04", title: "Engenharia Aplicada", desc: "A base física do seu sucesso. Combinamos cartografia avançada e inteligência hidrológica para um desenho arquitetônico-ambiental que otimiza cada metro quadrado e extirpa o desperdício de recursos." },
-    { id: "05", title: "Assessoria & Defesa Legal", desc: "Seu escudo contra a incerteza jurídica e multas desnecessárias. Atuamos cirurgicamente na defesa de autos de infração e na estruturação impecável de Termos de Ajustamento de Conduta (TAC)." }
+    { id: "01", title: "Licenciamento Ambiental", desc: "Condução técnica de ponta a ponta (LP, LI, LO). Elaboramos os estudos prévios e o Relatório de Impacto Ambiental (EIA/RIMA) com dados primários irrefutáveis, garantindo que o órgão regulador tenha a base exata para aprovação." },
+    { id: "02", title: "Supressão e Flora", desc: "Inventário florestal de precisão. Dimensionamos o volume exato da supressão vegetal necessária, calculamos as métricas de compensação ambiental e executamos o resgate de flora minimizando o passivo do terreno." },
+    { id: "03", title: "Manejo de Fauna", desc: "Levantamento, monitoramento e afugentamento de espécies. Garantimos que a interferência da obra na vida silvestre seja rigorosamente controlada, protocolada e aprovada conforme as diretrizes do IBAMA e órgãos estaduais." },
+    { id: "04", title: "Estudos Hidrológicos", desc: "Outorgas de uso da água e intervenção em Áreas de Preservação Permanente (APP). Avaliamos bacias de contribuição e dinâmicas de escoamento para garantir o uso seguro dos recursos hídricos na sua operação." },
+    { id: "05", title: "Gestão de Passivos", desc: "Defesa técnica e reversão de embargos. Quando o projeto herda problemas ou recebe autuações, atuamos com perícia ambiental para reestruturar o passivo e firmar Termos de Ajustamento de Conduta (TAC) factíveis." }
   ],
   team: {
     title: "A Equipe",
-    desc: "Profissionais dedicados a entregar excelência e resultados consistentes em cada projeto ambiental.",
+    desc: "Engenheiros e biólogos focados em viabilidade técnica, não apenas em preenchimento de formulários.",
     members: [
       {
         name: "Nome do Integrante 1",
         role: "Cargo / Especialidade",
-        bio: "Breve descrição sobre a experiência do profissional, sua formação acadêmica e seu papel dentro da consultoria. (Insira aqui o seu texto).",
+        bio: "Breve descrição sobre a experiência prática, projetos aprovados e o foco de atuação dentro das frentes de licenciamento. (Insira o texto real aqui).",
         image: ""
       },
       {
         name: "Nome do Integrante 2",
         role: "Cargo / Especialidade",
-        bio: "Breve descrição sobre a experiência do profissional, sua formação acadêmica e seu papel dentro da consultoria. (Insira aqui o seu texto).",
+        bio: "Breve descrição sobre a experiência de campo, relatórios técnicos assinados e gestão de equipes biológicas. (Insira o texto real aqui).",
         image: ""
       }
     ]

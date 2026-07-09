@@ -34,8 +34,8 @@ export default function Services() {
               transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] as const }}
               className="font-serif text-[3.25rem] md:text-[5rem] lg:text-[7rem] leading-[0.85] tracking-tighter"
             >
-              Domínio <br/>
-              <span className="italic text-arata-crimson">Absoluto.</span>
+              Precisão <br/>
+              <span className="italic text-arata-crimson">Técnica.</span>
             </motion.h2>
           </div>
         </div>

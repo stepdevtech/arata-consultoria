@@ -86,7 +86,7 @@ export default function Hero() {
             className="font-sans text-[0.65rem] font-semibold tracking-[0.3em] uppercase text-arata-crimson mb-8 flex items-center justify-center gap-4"
           >
             <span className="w-8 h-[1px] bg-arata-crimson"></span>
-            Excelência Regulatória
+            Viabilidade e Estrutura
             <span className="w-8 h-[1px] bg-arata-crimson"></span>
           </motion.span>
           
@@ -105,13 +105,13 @@ export default function Hero() {
                 variants={text3DVariants} 
                 className="block drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)]"
               >
-                Engenharia
+                {arataData.hero.titleLine1}
               </motion.span>
               <motion.span 
                 variants={text3DVariants} 
                 className="block italic text-arata-crimson drop-shadow-[0_20px_30px_rgba(0,0,0,0.8)]"
               >
-                & Ambiental.
+                & {arataData.hero.titleLine2}.
               </motion.span>
             </motion.h1>
           </motion.div>
@@ -120,8 +120,7 @@ export default function Hero() {
             variants={fadeUpVariants}
             className="font-sans font-light text-arata-offwhite/80 text-lg lg:text-xl max-w-2xl mt-4 leading-relaxed drop-shadow-lg"
           >
-            Consultoria técnica de alto nível para empreendimentos complexos. 
-            Garantimos segurança jurídica e viabilidade operacional através de inteligência ambiental.
+            {arataData.hero.subtitle}
           </motion.p>
           
           <motion.div variants={fadeUpVariants} className="mt-16 flex items-center justify-center gap-8">
