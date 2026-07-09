@@ -26,7 +26,7 @@ export default function Team() {
           </div>
           <div className="col-span-12 lg:col-span-8 flex flex-col gap-8">
             <h2 className="font-serif text-[3.25rem] md:text-[5rem] lg:text-[7rem] leading-[0.9] tracking-tight">
-              A <span className="italic text-arata-offwhite/50">{arataData.team.title}</span>
+              <span className="italic text-arata-offwhite/50">{arataData.team.title}</span>
             </h2>
             <p className="font-sans font-light text-arata-offwhite/70 text-lg lg:text-xl max-w-xl leading-relaxed">
               {arataData.team.desc}
