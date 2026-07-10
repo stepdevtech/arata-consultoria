@@ -1,16 +1,16 @@
 "use client";
 
-import { motion, useMotionValue, useTransform } from "framer-motion";
+import { motion, useMotionValue, useTransform, Variants } from "framer-motion";
 import { arataData } from "@/constants/arata-data";
 import { MouseEvent } from "react";
 
 export default function Hero() {
-  const fadeUpVariants = {
+  const fadeUpVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     show: { opacity: 1, y: 0, transition: { duration: 1.2, ease: [0.16, 1, 0.3, 1] } }
   };
 
-  const text3DVariants = {
+  const text3DVariants: Variants = {
     hidden: { opacity: 0, rotateX: -80, y: 80, transformPerspective: 1200 },
     show: { 
       opacity: 1, 
